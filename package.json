@@ -1,0 +1,48 @@
+{
+    "name": "bootstrap_starter",
+    "version": "1.0.0",
+    "description": "Bootstrap 5 Template for Quickly Starting Project",
+    "main": "main.js",
+    "scripts": {
+        "start": "webpack serve --mode development",
+        "start:open": "webpack serve --open google-chrome --mode development",
+        "build": "webpack build --mode development",
+        "build:prod": "webpack build --mode production",
+        "clean": "rm -rf ./dist"
+    },
+    "keywords": [],
+    "author": "Marzuk Zarir",
+    "license": "MIT",
+    "browserslist": [
+        "last 4 versions",
+        "> 0.5%"
+    ],
+    "devDependencies": {
+        "@babel/cli": "^7.12.13",
+        "@babel/core": "^7.12.13",
+        "@babel/node": "^7.12.13",
+        "@babel/polyfill": "^7.12.1",
+        "@babel/preset-env": "^7.12.13",
+        "@babel/register": "^7.13.16",
+        "@fullhuman/postcss-purgecss": "^4.0.3",
+        "babel-loader": "^8.2.2",
+        "babel-register": "^6.26.0",
+        "clean-webpack-plugin": "*",
+        "css-loader": "^5.2.4",
+        "css-minimizer-webpack-plugin": "^2.0.0",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.0.0",
+        "mini-css-extract-plugin": "^1.6.0",
+        "postcss": "^8.2.14",
+        "postcss-loader": "^5.2.0",
+        "postcss-preset-env": "^5.3.0",
+        "sass-loader": "^11.1.0",
+        "webpack": "^5.20.2",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "bootstrap": "^5.0.0-beta3",
+        "sass": "1.32.12"
+    }
+}

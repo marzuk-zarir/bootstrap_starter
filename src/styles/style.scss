@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap';
+@import './variables';
+@import './theme';
+@import './mixin';
+
+body {
+    font-family: $default-font;
+    line-height: 1.5;
+    background: $main-bg;
+    color: $main-color;
+}

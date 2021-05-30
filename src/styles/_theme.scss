@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+    outline: 0;
+    box-sizing: border-box;
+}
+
+input {
+    &[type='text']:focus,
+    &[type='email']:focus {
+        box-shadow: 0 0 0 0.08rem rgb(13 110 253 / 25%);
+    }
+}
+
+.btn {
+    &:focus {
+        box-shadow: none !important;
+    }
+}

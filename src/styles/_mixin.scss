@@ -1,0 +1,6 @@
+// Media query mixin
+@mixin mediaScreen($breakpoint) {
+    @media screen and (min-width: $breakpoint) {
+        @content;
+    }
+}

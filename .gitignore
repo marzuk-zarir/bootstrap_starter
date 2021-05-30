@@ -1,0 +1,16 @@
+# npm or yarn file
+/node_modules
+package-lock.json
+yarn.lock
+
+# temp file
+*.log
+*.ini
+*.DS_store
+*.cache
+*.pnp
+*.history
+*.temp
+
+# secret file
+*.env
