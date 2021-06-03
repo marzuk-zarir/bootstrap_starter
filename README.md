@@ -1,59 +1,36 @@
 # Bootstrap 5.0 Starter Template
 
-## Technology:
+A bootstrap starter template for quickly create a project with webpack and babeljs.
 
-1. Bootstrap 5
-1. BabelJS 7
-1. PostCSS
-    - Autoprefixer
-    - PurgeCSS
-1. Webpack 5
-1. Webpack-dev-server
+Technology:
 
-## First Install Dependencies
+-   webpack 5
+-   babeljs 7
+-   bootstrap 5
+-   bootstrap icon
+-   postcss
+-   sass
 
-> ```sh
-> npm install
-> ```
->
-> or
->
-> ```sh
-> yarn install
-> ```
+## First install dependencies
 
-## Create Development Build
+```sh
+npm install
+```
 
-> ```sh
-> npm run build
-> ```
->
-> or
->
-> ```sh
-> yarn run build
-> ```
+## Start development server at port 9090
 
-## Create Production Build
+```sh
+npm start
+```
 
-> ```sh
-> npm run build:prod
-> ```
->
-> or
->
-> ```sh
-> yarn run build:prod
-> ```
+## Create development build
 
-## Start Development Server at 9090 Port
+```sh
+npm run dev
+```
 
-> ```sh
-> npm start
-> ```
->
-> or
->
-> ```sh
-> yarn start
-> ```
+## Create production build
+
+```sh
+npm run prod
+```

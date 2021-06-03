@@ -1,5 +1,6 @@
 # npm or yarn file
 /node_modules
+/dist
 package-lock.json
 yarn.lock
 
@@ -9,6 +10,7 @@ yarn.lock
 *.DS_store
 *.cache
 *.pnp
+*.pnp.js
 *.history
 *.temp
 
