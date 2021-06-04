@@ -6,7 +6,7 @@
     "scripts": {
         "start": "webpack serve --mode development --open",
         "dev": "webpack build --mode development",
-        "prod": "webpack build --mode production",
+        "prod": "NODE_ENV=production webpack build --mode production",
         "clean": "rm -rf ./dist"
     },
     "keywords": [],

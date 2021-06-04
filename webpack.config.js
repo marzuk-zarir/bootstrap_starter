@@ -3,7 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const build = { minimize: true, sourceMap: 'source-map' };
+let build = { minimize: false, sourceMap: 'inline-source-map' };
+
+if (process.env.NODE_ENV === 'production') {
+    build = { minimize: true, sourceMap: 'source-map' };
+}
 
 const webpackConfig = {
     entry: './src/scripts/index.js',
